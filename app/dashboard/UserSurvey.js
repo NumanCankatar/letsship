@@ -1,9 +1,8 @@
-
 'use client';
 import React, { useState,useEffect } from 'react';
 import axios from 'axios';
 
-const userSurvey = () => {
+const UserSurvey = () => {
     const baseUrl = window.location.origin;
     const [data,setData] = useState([]);
     const fetchData = async () => {
@@ -54,4 +53,4 @@ const userSurvey = () => {
       );
 };
 
-export default userSurvey;
+export default UserSurvey;
